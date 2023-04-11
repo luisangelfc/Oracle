@@ -6,8 +6,8 @@ git commit -m "texto" es para subirlos
 
 
 
-git init --bare   para iniciar un servidor remoto local
-git remote add localserver  direccion 
+git init --bare   para iniciar un servidor remoto local en la carpeta donde va a empezar el server
+git remote add localserver  direccion        --en la carpeta original 
 git remote -v
 git remote      ver a cual esta conectado
 git remote origin localserver
